@@ -1,13 +1,63 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  background-color: rgba(1, 1, 1, 0.949);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  height: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  top: 400px;
+  height: 800px;
+}
+
+.startButton {
+  background-color: rgb(76, 75, 75);
+  color: rgb(255, 254, 254);
+  border: black solid 5px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pomoTimer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 650px;
+}
+
+.handleDecrement {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.handleIncrement {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  font-size: 25px;
 }
